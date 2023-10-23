@@ -55,7 +55,7 @@ h3{
     margin:2.5%;
 
 }
-.zap{
+.zap, .menu{
     display: none;
 }
 .dogUm{
@@ -177,8 +177,6 @@ h1{
     justify-content: space-between;
     align-items: center;
     columns:3;
-    border: solid black;
-    
 }
 .apoio{
     display:flex;
@@ -293,6 +291,7 @@ h1{
         width:33%;
         padding-left: 7%;
         top:155%;
+        cursor:pointer;
         padding: 1.5% 1% 1.5% 8%;
     }
     .Texto2{
@@ -303,6 +302,7 @@ h1{
         padding-left: 5%;
        left:50%;
        top:280%;
+       cursor:pointer;
        padding: 1.5% 1% 1.5% 8%;
      
     }
@@ -339,6 +339,7 @@ h1{
     height: 5%;
     font-size: 1em;
     top:177%;
+    cursor:pointer;
     padding: 1.5% 1% 1.5% 8%;
     }
     .Titulo{
@@ -364,6 +365,7 @@ h1{
         padding: 1.5% 1% 1.5% 8%;
         font-size: 1em;
         top:280%;
+        cursor:pointer;
     }
     .rodape{
         display: flex;
@@ -496,6 +498,7 @@ h1{
         width:43%;
         padding-left: 9%;
         top:173%;
+        cursor:pointer;
         padding: 1.5% 1.5% 1.8% 10%;
         font-size: 1em;
 
@@ -527,6 +530,7 @@ h1{
         padding: 1.5%;
         font-size: 1em;
         top:275%;
+        cursor:pointer;
         padding: 1% 1.5% 1.8% 10%;
     }
     .preFtr{
@@ -634,9 +638,6 @@ h1{
     .imgHeader{
         display: none;
     }
-    .menu{
-        display: initial;
-    }
     .zap{
         display: initial;
         width: 21%;
@@ -677,6 +678,7 @@ h1{
         width:43%;
         padding-left: 9%;
         top:173%;
+        cursor:pointer;
         padding: 1.5% 1.5% 1.8% 10%;
         font-size: 1em;
 
@@ -708,6 +710,7 @@ h1{
         padding: 1.5%;
         font-size: 1em;
         top:275%;
+        cursor:pointer;
         padding: 1% 1.5% 1.8% 10%;
     }
     .preFtr{
@@ -810,4 +813,107 @@ h1{
         height: 40%;
         margin-right: 50px;
     }   
+}
+@media (min-width:200px) and (max-width:392px){
+    .imgHeader,.logo,.h3{
+        display: none;
+    }
+    .menu{
+        display: initial;
+        width: 21%;
+        height: 55%;
+        margin-top:3%;
+    }
+    .zap{
+        display: initial;
+        width: 21%;
+        height: 55%;
+        margin-top:3%;
+        background-color: rgba(121, 239, 121, 0.462);
+    }
+    .dogUm{
+       width: 100vw;
+       height: 100vh;
+    }
+    header{
+        background-color: rgba(243, 229, 210, 0.872);
+    }
+    h1{
+        width: 95%;
+        height: 15%;
+        padding-left: 30%;
+        font-size: 1.7em;
+        color:antiquewhite;
+        bottom: 57%;
+    }
+    .dogDois{
+        width: 100vw;
+       height: 100vh;
+      
+    }
+    .Pergunta{
+        font-size: 1rem;
+        width: 50%;
+        top:165%;
+       
+    }
+    .Descrição, .Texto2{
+        display:none;
+
+    }
+    .btnDois{
+        width:53%;
+        top:173%;
+        padding: 2.5% 3.5% 3.8% 10%;
+        font-size: 1em;
+        left:5%;
+        cursor:pointer;
+    }
+    .dogTres{
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .Titulo{
+        left:43%;
+        width: 60%;
+        height: 10%;
+        font-size: 1em;
+        top:236%;       
+    }
+    .btnTres{
+        left: 50%;
+        width: 48%;
+        height: 5%;
+        padding: 1.5%;
+        font-size: 1em;
+        top:245%;
+        padding: 2.5% 2.8% 3.5% 10%;
+        cursor:pointer;
+    }
+    .preFtr{
+        display: flex;
+        font-size: 0.6em;
+        width: 90%;
+        height: 100%;
+       margin-left: 5%;
+    }
+    .apoio{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rodape{
+        background-color: #FD6A9A;
+    }
+  
+    .Atendimento,.Parte1,.info_1,.Sobre,.Parte2{
+        display: none;
+    }
+
+    .info_2,.und,.Parte3,.info_3{
+        display:none;
+    }
 }
