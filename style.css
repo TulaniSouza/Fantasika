@@ -55,6 +55,9 @@ h3{
     margin:2.5%;
 
 }
+.zap{
+    display: none;
+}
 .dogUm{
     width: 100%;
     height: 100vh;
@@ -168,60 +171,643 @@ h1{
     background-color: #FFFFFF;
 
 }
-.pFtr{
-    display: flex;
-    flex-direction: space-evenly;
-    width: 100%;
-    height: 10vh;
-    padding: 5%;
-    align-items: center;
-}
 .preFtr{
     background-color: #FFFFFF;
-    color:#FD6A9A;
     display: flex;
-    width: 100%;
-    height: 10vh;
-    font-size: 1.5em;
-    left:30%;
-    
+    justify-content: space-between;
+    align-items: center;
+    columns:3;
+    border: solid black;
     
 }
-.rodape{
+.apoio{
     display:flex;
-    padding:  10% 10% 10% 10%;
-    background-color: #EB4A7B;
-    margin-top: 5%;
-   color: #FFFFFF;
-   font-size: 1.2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FD6A9A;
+}
+.pFtr{
+    color: #FD6A9A;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
 
+.rodape{
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding:  10% 10% 10% 10%;
+    background-color: #FD6A9A;
+    columns: 3;
+   
+}
+.Atendimento{
+    font-size: 0.9em;
+    width: 70%;
+    display: flex;
+    height: 90%;
+}
+
+.Parte1{
+    font-size: 0.9em;
+    display:inline-block;
+    margin-top:20%;
+    display: grid;
+    width:85% ;
 }
 .info_1{
-   padding-inline: 12%;
-    width: 8%;  
     cursor: pointer;
-    border:solid rgb(7, 245, 106);
+    font-size: 0.9em;
+    height: 50%;
+    margin:0 auto;
+    width: 90%;
+}
+.Sobre{
+    font-size: 0.9em;
+    width: 60%;
+    height: 60%;
+    display: flex;
+}
+.Parte2{
     display:flex;
-    
+   display:inline-block;
+   margin-top:20%;
+    font-size: 0.9em;
+    width: 90%;
 }
 .info_2{
-    padding-inline: 12%;
-    width: 8%; 
+    display: flex;
     cursor: pointer;
-    border:solid rgb(47, 209, 207);
-    display:flex;
+    font-size: 0.9em;
+    height: 25%;
+    width: 90%;
+    margin:0 auto;
+    
+}
+.und{
+    font-size: 0.9em;
+    width: 55%;
+    display: flex;  
+    height: 60%;
 
 }
-.info_3{
-    width: 10%; 
-    padding-inline: 12%;
-    cursor: pointer;
-    border:solid orange;
+.Parte3{
     display:flex;
+    font-size: 0.9em;
+    width:85%;
+    display:inline-block;
+   margin-top:20%;
+  
 }
-@media (max-width:764){
-    .pergunta{
+.info_3{
+    display: flex;
+    cursor: pointer;
+    width:90% ;
+    margin:0 auto;
+    font-size: 0.9em;
+    height: 25%;
+
+} 
+.footer-btn{
+    display:flex;
+    margin-top:19%;
+    border:solid #675ce14e; 
+    cursor:pointer;
+    color: rgb(230, 214, 121);
+    background-color: rgb(2, 74, 190);
+} 
+
+@media (max-width:764px){
+    .Pergunta{
         font-size: 1.9rem;
-        border: solid yellow;
+        width: 45%;
+        top:115%;
+       
     }
+    .Descrição{
+        top:123%;
+    }
+    .btnDois{
+        width:33%;
+        padding-left: 7%;
+        top:155%;
+        padding: 1.5% 1% 1.5% 8%;
+    }
+    .Texto2{
+        font-size: 1rem;
+    }
+    .btnTres{
+        width:33%;
+        padding-left: 5%;
+       left:50%;
+       top:280%;
+       padding: 1.5% 1% 1.5% 8%;
+     
+    }
+    .dogTres{
+        width:99.9vw;
+    }
+}
+@media (min-width:594px) and (max-width:638px){
+    h1{
+        width: 35%;
+        padding-left: 40%;
+        font-size: 2em;
+        display: flex;
+        position: absolute;
+        color:antiquewhite;
+        bottom: 58%;
+    }
+    .Descrição{
+        left: 10%;
+        width: 45%;
+        height: 33%;
+        font-size: 1.3em;
+        top:140%;
+    }
+    .Pergunta{
+        width: 45%;
+        left: 10%;
+        font-size: 1.5rem;
+        top:125%;
+    }
+    .btnDois{
+    left: 12%;
+    width: 35%;
+    height: 5%;
+    font-size: 1em;
+    top:177%;
+    padding: 1.5% 1% 1.5% 8%;
+    }
+    .Titulo{
+        left: 50%;
+        width: 35%;
+        height: 20%;
+        font-size: 2em;
+        top:230%;
+        
+    }
+    .Texto2{
+        top:239%;
+        left: 50%;
+        width: 45%;
+        height: 50%;
+        font-size: 1em;
+    
+    }
+    .btnTres{
+        left: 52%;
+        width: 35%;
+        height: 5%;
+        padding: 1.5% 1% 1.5% 8%;
+        font-size: 1em;
+        top:280%;
+    }
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+    }
+    .Atendimento{
+        font-size: 0.9em;
+        height: 80%;
+        margin-top: 10%;
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    
+    .Parte1{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+
+    
+    }
+    .info_1{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }
+    .Sobre{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 99%;
+
+    }
+    .Parte2{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;  
+        width: 99%;
+
+    
+    }
+    .info_2{
+        cursor: pointer;
+        display:flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }
+    .und{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 99%;
+
+        
+    }
+    .Parte3{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;    
+        width: 99%;
+
+    }
+    .info_3{
+        cursor: pointer;
+        display:flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }   
+}
+@media (min-width:394px) and (max-width:593px){
+    .imgHeader{
+        display: none;
+    }
+    .zap{
+        display: initial;
+        width: 21%;
+        height: 55%;
+        margin-top:3%;
+    }
+    .dogUm{
+       width: 100vw;
+       height: 100vh;
+    }
+    h1{
+        width: 95%;
+        height: 15%;
+        padding-left: 30%;
+        font-size: 1.7em;
+        color:antiquewhite;
+        bottom: 57%;
+    }
+    .dogDois{
+        width: 100vw;
+       height: 100vh;
+      
+    }
+    .Pergunta{
+        font-size: 1.3rem;
+        width: 45%;
+        top:125%;
+       
+    }
+    .Descrição{
+        top:130%;
+        height: 40%;
+        font-size: 1em;
+        width:43%;
+
+    }
+    .btnDois{
+        width:43%;
+        padding-left: 9%;
+        top:173%;
+        padding: 1.5% 1.5% 1.8% 10%;
+        font-size: 1em;
+
+    }
+    .dogTres{
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .Titulo{
+        left: 40%;
+        width: 60%;
+        height: 10%;
+        font-size: 1.5em;
+        top:236%;       
+    }
+    .Texto2{
+        top:240%;
+        left: 43%;
+        width: 55%;
+        height: 33%;
+        font-size: 1em;
+   
+    }
+    .btnTres{
+        left: 45%;
+        width: 48%;
+        height: 5%;
+        padding: 1.5%;
+        font-size: 1em;
+        top:275%;
+        padding: 1% 1.5% 1.8% 10%;
+    }
+    .preFtr{
+        display: flex;
+        font-size: 0.6em;
+        width: 90%;
+        height: 100%;
+       margin-left: 5%;
+    }
+    .apoio{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+    }
+    .Atendimento{
+        font-size: 0.9em;
+        height: 80%;
+        margin-top: 10%;
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    
+    .Parte1{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+
+    
+    }
+    .info_1{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }
+    .Sobre{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 99%;
+
+    }
+    .Parte2{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;  
+        width: 99%;
+
+    
+    }
+    .info_2{
+        cursor: pointer;
+        display:flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }
+    .und{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 99%;
+
+        
+    }
+    .Parte3{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;    
+        width: 99%;
+
+    }
+    .info_3{
+        cursor: pointer;
+        display:flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }      
+}
+@media (min-width:393px) and (max-width:592px){
+    .imgHeader{
+        display: none;
+    }
+    .menu{
+        display: initial;
+    }
+    .zap{
+        display: initial;
+        width: 21%;
+        height: 55%;
+        margin-top:3%;
+    }
+    .dogUm{
+       width: 100vw;
+       height: 100vh;
+    }
+    h1{
+        width: 95%;
+        height: 15%;
+        padding-left: 30%;
+        font-size: 1.7em;
+        color:antiquewhite;
+        bottom: 57%;
+    }
+    .dogDois{
+        width: 100vw;
+       height: 100vh;
+      
+    }
+    .Pergunta{
+        font-size: 1.3rem;
+        width: 45%;
+        top:125%;
+       
+    }
+    .Descrição{
+        top:130%;
+        height: 40%;
+        font-size: 1em;
+        width:43%;
+
+    }
+    .btnDois{
+        width:43%;
+        padding-left: 9%;
+        top:173%;
+        padding: 1.5% 1.5% 1.8% 10%;
+        font-size: 1em;
+
+    }
+    .dogTres{
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .Titulo{
+        left: 40%;
+        width: 60%;
+        height: 10%;
+        font-size: 1.5em;
+        top:236%;       
+    }
+    .Texto2{
+        top:240%;
+        left: 43%;
+        width: 55%;
+        height: 33%;
+        font-size: 1em;
+   
+    }
+    .btnTres{
+        left: 45%;
+        width: 48%;
+        height: 5%;
+        padding: 1.5%;
+        font-size: 1em;
+        top:275%;
+        padding: 1% 1.5% 1.8% 10%;
+    }
+    .preFtr{
+        display: flex;
+        font-size: 0.6em;
+        width: 90%;
+        height: 100%;
+       margin-left: 5%;
+    }
+    .apoio{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+    }
+    .Atendimento{
+        font-size: 0.9em;
+        height: 80%;
+        margin-top: 10%;
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    
+    .Parte1{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+
+    
+    }
+    .info_1{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }
+    .Sobre{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 99%;
+
+    }
+    .Parte2{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;  
+        width: 99%;
+
+    
+    }
+    .info_2{
+        cursor: pointer;
+        display:flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }
+    .und{
+        font-size: 0.9em;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 99%;
+
+        
+    }
+    .Parte3{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;    
+        width: 99%;
+
+    }
+    .info_3{
+        cursor: pointer;
+        display:flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        width: 99%;
+        height: 40%;
+        margin-right: 50px;
+    }   
 }
