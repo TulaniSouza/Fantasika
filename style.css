@@ -312,12 +312,15 @@ h1{
 } 
 
 @media (min-width:764px){
+   
     .Pergunta{
         font-size: 1.9rem;
         width: 45%;
         bottom:75%;
+        
        
     }
+
     .Descrição{
         bottom:40%;
     }
@@ -340,9 +343,7 @@ h1{
        padding: 1.5% 1% 1.5% 8%;
      
     }
-    .dogTres{
-        width:99.9vw;
-    }
+   
 }
 @media (min-width:594px) and (max-width:638px){
     h1{
