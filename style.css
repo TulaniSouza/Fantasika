@@ -59,23 +59,35 @@ h3{
     display: none;
 }
 .dogUm{
+    background-image: url("./source/PrimeiroDog.png");
+    background-size: 100% 100%;
+    background-position:center; 
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     position: relative;
+    padding-inline: 2.5rem;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 
 }
+
 h1{
-    width: 15%;
-    padding-left: 43%;
+    width: 33%;
+    left: 35%;
+    text-align: center;
     font-size: 2.9em;
     display: flex;
     position: absolute;
     color:antiquewhite;
-    bottom: 60%;
+    top: 9%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .logoSobreposta{
-    bottom:40%;
+    bottom:50%;
     background-repeat: no-repeat;
     position: absolute;
     height: 15vh;
@@ -84,17 +96,27 @@ h1{
     display: flex;
 }
 .dogDois{
+    background-image: url("./source/SegundoDog.png");
+    background-size: 100% 100%;
+    background-position:center; 
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     position: relative;
+    padding-inline: 2.5rem;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Pergunta{
     width: 35%;
     left: 10%;
     font-size: 3.5em;
     display: flex;
-    top:135%;
     position: absolute;
+    color:#252525;
+    bottom: 60%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Descrição{
@@ -103,23 +125,23 @@ h1{
     height: 30%;
     font-size: 1.3em;
     display: flex;
-    top:147%;
     position: absolute;
-    color:#3A342F;
+    color:#252525;
+    bottom: 30%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .btnDois{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     left: 12%;
-    width: 15%;
-    height: 5%;
+    width: 17%;
+    height: 5.2%;
     align-items: center;
     border-radius: 40px 40px 40px 40px;
-    padding: 1.5%;
-    font-size: 1.5em;
+    padding: 0.7% 1% 1.3% 5%;
+    font-size: 1.2em;
     display: flex;
-    top:177%;
+    bottom:25%;
     position: absolute;
     background-color:#3A342F;
     color:#F4F2F3;
@@ -127,48 +149,60 @@ h1{
 
 }
 .dogTres{
-    width: 98.8vw;
+    background-image: url("./source/UltimoDog.png");
+    background-size: 100% 100%;
+    background-position:center; 
+    background-repeat: no-repeat;
+    width: 100%;
     height: 100vh;
     position: relative;
+    padding-inline: 2.5rem;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Titulo{
-    left: 50%;
-    width: 30%;
-    height: 50%;
-    font-size: 3em;
+    left: 55%;
+    width: 35%;
+    height: 30%;
+    font-size: 3.3em;
     display: flex;
-    top:236%;
     position: absolute;
+    bottom: 48%;
     color:#FFFFFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .Texto2{
-    top:240%;
     color:#FFFFFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: absolute;
-    left: 50%;
+    left: 55%;
     width: 35%;
-    height: 50%;
-    font-size: 1em;
+    height: 30%;
+    font-size: 1.3em;
+    display: flex;
+    position: absolute;
+    bottom: 30%;
 
 }
 .btnTres{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    left: 52%;
-    width: 15%;
+    left: 55%;
+    width: 20%;
     height: 5%;
     align-items: center;
     border-radius: 40px 40px 40px 40px;
-    padding: 1.5%;
+    padding: 1.7% 2% 2.3% 4.5%;
     font-size: 1.5em;
     display: flex;
-    top:275%;
+    bottom: 20%;
     position: absolute;
     color:#000000;
     cursor: pointer;
     background-color: #FFFFFF;
+    font-weight: bold;
+    border:none;
 
 }
 .preFtr{
@@ -281,16 +315,16 @@ h1{
     .Pergunta{
         font-size: 1.9rem;
         width: 45%;
-        top:115%;
+        bottom:75%;
        
     }
     .Descrição{
-        top:123%;
+        bottom:40%;
     }
     .btnDois{
         width:33%;
         padding-left: 7%;
-        top:155%;
+        bottom:30%;
         cursor:pointer;
         padding: 1.5% 1% 1.5% 8%;
     }
@@ -300,8 +334,8 @@ h1{
     .btnTres{
         width:33%;
         padding-left: 5%;
-       left:50%;
-       top:280%;
+       left:55%;
+       bottom:29%;
        cursor:pointer;
        padding: 1.5% 1% 1.5% 8%;
      
@@ -313,45 +347,45 @@ h1{
 @media (min-width:594px) and (max-width:638px){
     h1{
         width: 35%;
-        padding-left: 40%;
+        padding-left: 30%;
         font-size: 2em;
+        top: 10%;
         display: flex;
         position: absolute;
-        color:antiquewhite;
-        bottom: 58%;
+       
     }
     .Descrição{
         left: 10%;
         width: 45%;
         height: 33%;
         font-size: 1.3em;
-        top:140%;
+        bottom:30%;
     }
     .Pergunta{
         width: 45%;
-        left: 10%;
+        left: 11%;
         font-size: 1.5rem;
-        top:125%;
+        bottom:66%;
     }
     .btnDois{
     left: 12%;
     width: 35%;
     height: 5%;
     font-size: 1em;
-    top:177%;
+    bottom:17%;
     cursor:pointer;
     padding: 1.5% 1% 1.5% 8%;
     }
     .Titulo{
-        left: 50%;
-        width: 35%;
+        left: 55%;
+        width: 45%;
         height: 20%;
-        font-size: 2em;
-        top:230%;
+        font-size: 1.5em;
+        bottom:55%;
         
     }
     .Texto2{
-        top:239%;
+        bottom:29%;
         left: 50%;
         width: 45%;
         height: 50%;
@@ -364,7 +398,7 @@ h1{
         height: 5%;
         padding: 1.5% 1% 1.5% 8%;
         font-size: 1em;
-        top:280%;
+        bottom:30%;
         cursor:pointer;
     }
     .rodape{
@@ -379,8 +413,6 @@ h1{
         width: 99%;
         display: flex;
         flex-direction: column;
-
-        
     }
     
     .Parte1{
@@ -464,38 +496,30 @@ h1{
         height: 55%;
         margin-top:3%;
     }
-    .dogUm{
-       width: 100vw;
-       height: 100vh;
-    }
+   
     h1{
-        width: 95%;
-        height: 15%;
-        padding-left: 30%;
-        font-size: 1.7em;
-        color:antiquewhite;
-        bottom: 57%;
-    }
-    .dogDois{
-        width: 100vw;
-       height: 100vh;
-      
+        font-size: 1em;
+        left: 1%;
+        top: 17%;
+        width: 2%;
     }
     .Pergunta{
-        font-size: 1.3rem;
+        font-size: 1rem;
         width: 45%;
-        top:125%;
-       
+        top:57%;
+        height: 10%;
+
     }
     .Descrição{
-        top:130%;
+        bottom:30%;
         height: 40%;
         font-size: 1em;
         width:43%;
-
+        left:5%;
     }
     .btnDois{
         width:43%;
+        left:5%;
         padding-left: 9%;
         top:173%;
         cursor:pointer;
@@ -511,9 +535,10 @@ h1{
     .Titulo{
         left: 40%;
         width: 60%;
-        height: 10%;
-        font-size: 1.5em;
-        top:236%;       
+        height: 12%;
+        font-size: 1em;
+        bottom:36%; 
+             
     }
     .Texto2{
         top:240%;
@@ -521,6 +546,7 @@ h1{
         width: 55%;
         height: 33%;
         font-size: 1em;
+        
    
     }
     .btnTres{
@@ -559,7 +585,6 @@ h1{
         width: 99%;
         display: flex;
         flex-direction: column;
-
         
     }
     
@@ -655,6 +680,7 @@ h1{
         font-size: 1.7em;
         color:antiquewhite;
         bottom: 57%;
+
     }
     .dogDois{
         width: 100vw;
@@ -663,21 +689,23 @@ h1{
     }
     .Pergunta{
         font-size: 1.3rem;
-        width: 45%;
-        top:125%;
+        width: 40%;
+        height: 7%;
+        top:27%;
        
     }
     .Descrição{
-        top:130%;
-        height: 40%;
+        top: 35%;
+        height: 35%;
         font-size: 1em;
         width:43%;
+
 
     }
     .btnDois{
         width:43%;
         padding-left: 9%;
-        top:173%;
+        top:73%;
         cursor:pointer;
         padding: 1.5% 1.5% 1.8% 10%;
         font-size: 1em;
@@ -689,18 +717,18 @@ h1{
        
     }
     .Titulo{
-        left: 40%;
-        width: 60%;
+        left: 45%;
+        width: 50%;
         height: 10%;
         font-size: 1.5em;
-        top:236%;       
+        top:30%;  
     }
     .Texto2{
-        top:240%;
+        top:40%;
         left: 43%;
         width: 55%;
         height: 33%;
-        font-size: 1em;
+        font-size: 1em;     
    
     }
     .btnTres{
@@ -709,9 +737,9 @@ h1{
         height: 5%;
         padding: 1.5%;
         font-size: 1em;
-        top:275%;
+        top:75%;
         cursor:pointer;
-        padding: 1% 1.5% 1.8% 10%;
+        padding: 4% 5.5% 5.8% 15%;
     }
     .preFtr{
         display: flex;
@@ -827,76 +855,55 @@ h1{
     .zap{
         display: initial;
         width: 21%;
-        height: 55%;
-        margin-top:3%;
+        height: 10%;
+        left:59%;
+        position:fixed;
+        z-index: 3;
+        cursor:pointer;
         background-color: rgba(121, 239, 121, 0.462);
     }
-    .dogUm{
-       width: 100vw;
-       height: 100vh;
-    }
+    
     header{
         background-color: rgba(243, 229, 210, 0.872);
     }
     h1{
-        width: 95%;
+        width: 65%;
         height: 15%;
-        padding-left: 30%;
-        font-size: 1.7em;
+        left: 20%;
+        font-size: 1.3em;
         color:antiquewhite;
-        bottom: 57%;
+        top: 20%;
+
     }
-    .dogDois{
-        width: 100vw;
-       height: 100vh;
-      
-    }
+
     .Pergunta{
         font-size: 1rem;
         width: 50%;
-        top:165%;
-       
-    }
-    .Descrição, .Texto2{
-        display:none;
-
-    }
-    .btnDois{
-        width:53%;
-        top:173%;
-        padding: 2.5% 3.5% 3.8% 10%;
-        font-size: 1em;
+        top:35%;
+        height: 10%;
         left:5%;
-        cursor:pointer;
-    }
-    .dogTres{
-        width: 100vw;
-        height: 100vh;
        
+    }
+    .Descrição,.btnDois {
+        display: none;
+
     }
     .Titulo{
         left:43%;
-        width: 60%;
+        width: 50%;
         height: 10%;
         font-size: 1em;
-        top:236%;       
-    }
-    .btnTres{
-        left: 50%;
-        width: 48%;
-        height: 5%;
-        padding: 1.5%;
-        font-size: 1em;
-        top:245%;
-        padding: 2.5% 2.8% 3.5% 10%;
-        cursor:pointer;
+        top:36%;   
+        
     }
     .preFtr{
         display: flex;
-        font-size: 0.6em;
+        flex-direction: column;
+        font-size: 0.5em;
         width: 90%;
         height: 100%;
        margin-left: 5%;
+
     }
     .apoio{
         font-size: 0.9em;
@@ -913,7 +920,7 @@ h1{
         display: none;
     }
 
-    .info_2,.und,.Parte3,.info_3{
+    .info_2,.und,.Parte3,.Texto2,.info_3,.btnTres{
         display:none;
     }
 }
