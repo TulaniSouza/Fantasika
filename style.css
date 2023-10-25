@@ -11,6 +11,7 @@ header{
     background-color: #252525; 
     height: 10vh;  
     width: 100%;
+   
 }
 .logo{
     width: 10%;
@@ -312,12 +313,14 @@ h1{
 } 
 
 @media (min-width:764px){
-   
+   header{
+    position: fixed;
+    z-index: 2;
+   }
     .Pergunta{
         font-size: 1.9rem;
         width: 45%;
         bottom:75%;
-        
        
     }
 
@@ -346,14 +349,31 @@ h1{
    
 }
 @media (min-width:594px) and (max-width:638px){
+    header{
+        position: fixed;
+        z-index: 2;
+
+       }
+    .imgHeader{
+        display:flex;
+        width: 6.3vw;
+        height: 5vh;
+        padding: 1.5%;
+        margin: 4.5%;
+        cursor: pointer;
+    
+    }
+    .redesSociais{
+        left:15%;
+        width: 45vw;
+        height:7vh;
+        display: flex;
+    }
     h1{
         width: 35%;
-        padding-left: 30%;
-        font-size: 2em;
-        top: 10%;
-        display: flex;
-        position: absolute;
-       
+        left: 33%;
+        font-size: 1.7em;
+        top: 13%;
     }
     .Descrição{
         left: 10%;
@@ -499,55 +519,54 @@ h1{
     }
    
     h1{
-        font-size: 1em;
-        left: 1%;
-        top: 17%;
-        width: 2%;
+        font-size: 1.5em;
+        left: 35%;
+        top: 15%;
+        width: 20%;
+        
     }
     .Pergunta{
-        font-size: 1rem;
-        width: 45%;
-        top:57%;
-        height: 10%;
+        font-size: 1.3rem;
+        width: 43%;
+        top:30%;
+        height: 8%;
+        left:6%;
 
     }
     .Descrição{
-        bottom:30%;
-        height: 40%;
+        top:35%;
+        height: 35%;
         font-size: 1em;
         width:43%;
         left:5%;
+
     }
     .btnDois{
         width:43%;
         left:5%;
         padding-left: 9%;
-        top:173%;
+        top:73%;
         cursor:pointer;
         padding: 1.5% 1.5% 1.8% 10%;
         font-size: 1em;
+        
+
 
     }
-    .dogTres{
-        width: 100vw;
-        height: 100vh;
-       
-    }
     .Titulo{
-        left: 40%;
-        width: 60%;
-        height: 12%;
-        font-size: 1em;
-        bottom:36%; 
+        left: 43%;
+        width: 53%;
+        height: 10%;
+        font-size: 1.5em;
+        top:20%; 
              
     }
     .Texto2{
-        top:240%;
+        top:31%;
         left: 43%;
         width: 55%;
-        height: 33%;
-        font-size: 1em;
-        
+        height: 30%;
+        font-size: 1em;       
    
     }
     .btnTres{
@@ -556,9 +575,10 @@ h1{
         height: 5%;
         padding: 1.5%;
         font-size: 1em;
-        top:275%;
+        top:60%;
         cursor:pointer;
         padding: 1% 1.5% 1.8% 10%;
+
     }
     .preFtr{
         display: flex;
@@ -660,190 +680,8 @@ h1{
         margin-right: 50px;
     }      
 }
-@media (min-width:393px) and (max-width:592px){
-    .imgHeader{
-        display: none;
-    }
-    .zap{
-        display: initial;
-        width: 21%;
-        height: 55%;
-        margin-top:3%;
-    }
-    .dogUm{
-       width: 100vw;
-       height: 100vh;
-    }
-    h1{
-        width: 95%;
-        height: 15%;
-        padding-left: 30%;
-        font-size: 1.7em;
-        color:antiquewhite;
-        bottom: 57%;
 
-    }
-    .dogDois{
-        width: 100vw;
-       height: 100vh;
-      
-    }
-    .Pergunta{
-        font-size: 1.3rem;
-        width: 40%;
-        height: 7%;
-        top:27%;
-       
-    }
-    .Descrição{
-        top: 35%;
-        height: 35%;
-        font-size: 1em;
-        width:43%;
-
-
-    }
-    .btnDois{
-        width:43%;
-        padding-left: 9%;
-        top:73%;
-        cursor:pointer;
-        padding: 1.5% 1.5% 1.8% 10%;
-        font-size: 1em;
-
-    }
-    .dogTres{
-        width: 100vw;
-        height: 100vh;
-       
-    }
-    .Titulo{
-        left: 45%;
-        width: 50%;
-        height: 10%;
-        font-size: 1.5em;
-        top:30%;  
-    }
-    .Texto2{
-        top:40%;
-        left: 43%;
-        width: 55%;
-        height: 33%;
-        font-size: 1em;     
-   
-    }
-    .btnTres{
-        left: 45%;
-        width: 48%;
-        height: 5%;
-        padding: 1.5%;
-        font-size: 1em;
-        top:75%;
-        cursor:pointer;
-        padding: 4% 5.5% 5.8% 15%;
-    }
-    .preFtr{
-        display: flex;
-        font-size: 0.6em;
-        width: 90%;
-        height: 100%;
-       margin-left: 5%;
-    }
-    .apoio{
-        font-size: 0.9em;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-
-    }
-    .rodape{
-        display: flex;
-        flex-direction: column;
-        width: 99%;
-    }
-    .Atendimento{
-        font-size: 0.9em;
-        height: 80%;
-        margin-top: 10%;
-        width: 99%;
-        display: flex;
-        flex-direction: column;
-
-        
-    }
-    
-    .Parte1{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9em;
-        width: 99%;
-
-    
-    }
-    .info_1{
-        display: flex;
-        flex-direction: column;
-        cursor: pointer;
-        font-size: 0.9em;
-        width: 99%;
-        height: 40%;
-        margin-right: 50px;
-    }
-    .Sobre{
-        font-size: 0.9em;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
-        width: 99%;
-
-    }
-    .Parte2{
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9em;  
-        width: 99%;
-
-    
-    }
-    .info_2{
-        cursor: pointer;
-        display:flex;
-        flex-direction: column;
-        font-size: 0.9em;
-        width: 99%;
-        height: 40%;
-        margin-right: 50px;
-    }
-    .und{
-        font-size: 0.9em;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
-        width: 99%;
-
-        
-    }
-    .Parte3{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.9em;    
-        width: 99%;
-
-    }
-    .info_3{
-        cursor: pointer;
-        display:flex;
-        flex-direction: column;
-        font-size: 0.9em;
-        width: 99%;
-        height: 40%;
-        margin-right: 50px;
-    }   
-}
-@media (min-width:200px) and (max-width:392px){
+@media (min-width:200px) and (max-width:393px){
     .imgHeader,.logo,.h3{
         display: none;
     }
@@ -855,7 +693,7 @@ h1{
     }
     .zap{
         display: initial;
-        width: 21%;
+        width: 18%;
         height: 10%;
         left:59%;
         position:fixed;
@@ -865,7 +703,7 @@ h1{
     }
     
     header{
-        background-color: rgba(243, 229, 210, 0.872);
+        background-color: rgba(242, 192, 121, 0.484);
     }
     h1{
         width: 65%;
